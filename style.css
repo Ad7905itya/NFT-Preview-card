@@ -37,7 +37,6 @@ body{
     border-radius: 14px;
     cursor: pointer;
     position: relative;
-    transition: all 200ms ease in;
 }
 
 #view{
@@ -50,6 +49,10 @@ body{
 
 .img:hover #view{
     display: inline;
+}
+
+.color-hover{
+    transition: all 0.3s ease-in;
 }
 
 .img:hover .color-hover{
