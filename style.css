@@ -37,6 +37,7 @@ body{
     border-radius: 14px;
     cursor: pointer;
     position: relative;
+    transition: all 200ms ease in;
 }
 
 #view{
