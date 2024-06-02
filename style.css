@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit , sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1625;
+}
+/* main starting from here */
+
+.card{
+    max-width: 330px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 14px;
+    background-color: #122034;
+    box-shadow: -4px 7px 3.5px 10px #070F1A, -3px 9px 3.5px 20px #0C1729;
+}
+
+.img{
+    width: 100%;
+    min-height: 290px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+#view{
+    width: 15%;
+    display: none;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.img:hover #view{
+    display: inline;
+}
+
+.img:hover .color-hover{
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    background-color: rgb(0, 255, 247,0.4);
+}
+
+
+h2{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.para,.time{
+    color: #889DBC;
+}
+
+.para{
+    font-size: 17px;
+}
+
+.ETH{
+    color:  #00fff7;
+}
+
+article{
+    margin: 20px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    border: 1px solid #2C3E56;
+}
+
+#ethereum{
+    width: 10px;
+    height: 15px;
+    margin: 0;
+}
+
+#clock{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    height: 40px;
+}
+
+#avatar{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.avatar-detail{
+    color: #889DBC;
+}
+
+strong{
+    color: #fff;
+    font-weight: 400;
+}
+
+.active{
+    cursor: pointer;
+}
+
+
+.active:hover{
+    color: #00fff7;
+}
+
+/* main element css style closing from here */
+/* footer element css style starting from here */
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #889DBC;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #22518f;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+    color: #0f77ff;
+}
+
+/* footer element css style closing from here */
